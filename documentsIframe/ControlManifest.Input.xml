@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="ktcs" constructor="documentsIframe" version="0.0.1" display-name-key="documentsIframe" description-key="documentsIframe description" control-type="virtual" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <data-set name="DocumentLocations" display-name-key="Document Locations Subgrid">
+    </data-set>
+    <resources>
+      <code path="index.ts" order="1"/>
+      <platform-library name="React" version="16.8.6" />
+      <platform-library name="Fluent" version="8.29.0" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="Utility" required="true" />
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
