@@ -19,17 +19,17 @@ const stackTokens: IStackTokens = {
 
 const stackStyles: IStackStyles = {
     root: {
-      width: "100%",
+        width: "100%",
     },
-  };
+};
   
 const stackItemStyles: IStackItemStyles = {
     root: {
-      display: 'flex',
-      width: "100%",
-      height: "600px"
+        display: 'flex',
+        width: "100%",
+        height: "600px"
     },
-  };
+};
 
 export const iframe: React.FC<IFrameProps> = ((props: IFrameProps) => {
     const [options, setOptions] = React.useState<IDropdownOption[]>([]);
